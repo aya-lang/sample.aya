@@ -10,7 +10,7 @@
     .# Try to convert to number
     deg_input .! :deg_input;
 
-    deg_input ::num :@ {
+    deg_input num :@ {
         "Radians: $(deg_input deg_to_rad)" :P
     } {
         "Cannot convert, invalid number: $deg_input" .D
