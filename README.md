@@ -9,7 +9,7 @@ A sample aya package that defines angle conversion utilities
 
 ## Package Structure
 
-  - `__pkg__.aya`: The entrypoint for the package. This file should bring package variables into scope. It should generally only have import/require statements in it
+  - `init.aya`: The entrypoint for the package. This file should bring package variables into scope. It should generally only have import/require statements in it
   - `package.json`: Package metadata
     - `name`: The package name
     - `version`: Version is `major.minor.patch` format
